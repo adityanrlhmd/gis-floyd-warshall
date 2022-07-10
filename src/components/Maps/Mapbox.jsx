@@ -49,7 +49,7 @@ const geolocateControlStyle = {
 
 const deleteStudent = (e) => {
   const value = e.target.value;
-  axios.delete('http://localhost:8080/api/lines/' + value)
+  axios.delete('https://gis-floyd-wharsall-server.herokuapp.com/api/lines/' + value)
       .then((res) => {
           console.log('Student successfully deleted!')
       }).catch((error) => {

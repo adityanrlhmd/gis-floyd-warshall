@@ -98,7 +98,7 @@ const MapBox = ({
   const getRutes = async () => {
     try {
       const newFeatures = [];
-      const url = 'http://localhost:8080/api/lines/';
+      const url = 'https://gis-floyd-wharsall-server.herokuapp.com/api/lines/';
       const { data } = await axios.get(url);
       data.map((d) => {
         newFeatures.push({

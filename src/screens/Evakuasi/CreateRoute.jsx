@@ -35,7 +35,7 @@ const CreateRoute = () => {
     };
 
     try {
-      const url = 'http://localhost:8080/api/lines/';
+      const url = 'https://gis-floyd-wharsall-server.herokuapp.com/api/lines/';
       const { data: res } = await axios.post(url, reqData);
       window.location.reload();
     } catch (error) {

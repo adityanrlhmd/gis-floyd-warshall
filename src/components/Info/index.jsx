@@ -5,29 +5,6 @@ export default function Info() {
   return (
     <div className='divRow'>
       <h1>Informasi</h1>
-      <div className='featured'>
-        <div className='featuredItem'>
-          <span className='featuredTitle'>Lorem</span>
-          <div className='featuredContainer'>
-            <span className='featuredCount'>JUDUL</span>
-          </div>
-          <span className='featuredSub'>Lorem Ipsum Gimsum</span>
-        </div>
-        <div className='featuredItem'>
-          <span className='featuredTitle'>Lorem</span>
-          <div className='featuredContainer'>
-            <span className='featuredCount'>JUDUL</span>
-          </div>
-          <span className='featuredSub'>Lorem Ipsum Gimsum</span>
-        </div>
-        <div className='featuredItem'>
-          <span className='featuredTitle'>Lorem</span>
-          <div className='featuredContainer'>
-            <span className='featuredCount'>JUDUL</span>
-          </div>
-          <span className='featuredSub'>Lorem Ipsum Gimsum</span>
-        </div>
-      </div>
       <h1>Maps Jalur Evakuasi</h1>
       <div className='featureMap'>
         <iframe

@@ -35,12 +35,6 @@ export default function Sidebar() {
                 Maps Evakuasi
               </li>
             </Link>
-            <Link to='#' className='link'>
-              <li className='sidebarListItem'>
-                <PermIdentity className='sidebarIcon' />
-                Kelola Informasi
-              </li>
-            </Link>
           </ul>
         </div>
       </div>
